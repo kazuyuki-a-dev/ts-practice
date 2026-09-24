@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家計簿アプリ（TypeScript版）</title>
+</head>
+<body>
+    <h1>家計簿アプリ（TypeScript版）</h1>
+
+    <p id="totalText"></p>
+
+    <input type="number" id="amountInput" placeholder="金額">
+    <select id="categorySelect">
+        <option value="食費">食費</option>
+        <option value="交通費">交通費</option>
+        <option value="娯楽費">娯楽費</option>
+        <option value="その他">その他</option>
+    </select>
+
+    <input type="text" id="memoInput" placeholder="メモ">
+    <button id="addBtn">追加</button>
+    <ul id="expenseList"></ul>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
