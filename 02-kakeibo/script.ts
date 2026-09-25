@@ -14,7 +14,9 @@ let expenses: Expense[] = [
 const expenseList = document.getElementById("expenseList");
 const totalText = document.getElementById("totalText");
 const amountInput = document.getElementById("amountInput") as HTMLInputElement;
-const categorySelect = document.getElementById("categorySelect") as HTMLSelectElement;
+const categorySelect = document.getElementById(
+  "categorySelect",
+) as HTMLSelectElement;
 const memoInput = document.getElementById("memoInput") as HTMLInputElement;
 const addBtn = document.getElementById("addBtn");
 
